@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-center">
+            <img src="./img/icons8-attendance-48.png" alt="" srcset="">
+            <h1>Attendance Counter</h1>
+
+        </div>
+    </nav>
+
+    <!-- boys section -->
+    <main>
+        <div class="container">
+            <!-- <h1>Male</h1> -->
+            <span id="value">0</span>
+
+            <div class="button-container">
+                <button class="btn decrease">-</button>
+                <!-- <button class="btn reset "> reset</button> -->
+                <div class="hero-image">
+                    <img src="./img/icons8-user-male-30.png" alt="">
+                </div>
+                <p>boys</p>
+                <button class="btn increase"><img src="./img/icons8-tick-50.png" alt=""></button>
+            </div>
+        </div>
+
+
+
+
+        <!-- girls section -->
+
+
+        <div class="container-female">
+            <!-- <h1>Female</h1> -->
+            <span id="value1">0</span>
+
+            <div class="button-container1">
+                <button class="btn1 decrease1">-</button>
+                <!-- <button class="btn1 reset1 "> reset</button> -->
+                <div class="hero-image">
+                    <img src="./img/icons8-female-user-30.png" alt="">
+                </div>
+                <p>girls</p>
+                <button class="btn1 increase1"><img src="./img/icons8-tick-50.png" alt=""></button>
+            </div>
+        </div>
+    </main>
+
+    <hr>
+    <div class="checkout">
+        <button>Checkout</button>
+        <div class="sum">
+            <div id="male">boys : <span id="value-male">0</span></div>
+            <div id="female">girls : <span id="value-female">0</span></div>
+
+        </div>
+        <div id="total1">Total :<span id="Total">0</span></div>
+    </div>
+    <footer>
+        <p>© @Dev_Chukwudi</p>
+    </footer>
+
+</body>
+<script src="attend.js"></script>
+
+</html>
